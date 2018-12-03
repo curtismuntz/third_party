@@ -1,0 +1,4 @@
+build --cxxopt=--std=c++14
+build --verbose_failures
+build --experimental_cc_skylark_api_enabled_packages=@rules_foreign_cc//tools/build_defs,tools/build_defs,@foreign_cc_impl
+build --spawn_strategy=standalone
